@@ -1,0 +1,96 @@
+.container {
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+}
+.container .App {
+  padding-right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .logo-container {
+  margin: 25px 0 0 25px;
+}
+.container .button {
+  border: none;
+  outline: none;
+}
+.container .display {
+  margin-top: 25px;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+.container .specsAndOps {
+  display: flex;
+  margin-top: 25px;
+}
+.container .specsAndOps .specsAndNumbers {
+  display: flex;
+  flex-direction: column;
+}
+.container .specsAndOps .specsAndNumbers .specials {
+  display: flex;
+}
+.container .specsAndOps .specsAndNumbers .specials .special {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: white;
+  background-color: #413cb3;
+  box-shadow: 1px 1px #322c2d;
+  font-size: 1.8rem;
+  box-shadow: 2px 3px #322c2d;
+  margin-right: 20px;
+}
+.container .specsAndOps .specsAndNumbers .number {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: white;
+  background-color: #2d1e7a;
+  box-shadow: 1px 1px #322c2d;
+  font-size: 1.8rem;
+  box-shadow: 2px 3px #322c2d;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.container .specsAndOps .specsAndNumbers .zero {
+  height: 100px;
+  width: 220px;
+  border-radius: 50px;
+  color: white;
+  background-color: #2d1e7a;
+  box-shadow: 1px 1px #322c2d;
+  font-size: 1.8rem;
+  box-shadow: 2px 3px #322c2d;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.container .specsAndOps .operators {
+  display: flex;
+  flex-direction: column;
+}
+.container .specsAndOps .operators .operator {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: white;
+  background-color: #47a9e9;
+  box-shadow: 1px 1px #322c2d;
+  font-size: 1.8rem;
+  box-shadow: 2px 3px #322c2d;
+  margin-bottom: 10px;
+}
